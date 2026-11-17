@@ -198,7 +198,7 @@ function ici_setup_git_client {
 }
 
 function ici_vcs_import {
-    ici_guard vcs import --recursive --force "$@"
+    ici_guard vcs import --recursive --force "$@" -w 1
 }
 
 function ici_import_repository {
